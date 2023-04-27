@@ -1,0 +1,11 @@
+#btn-orange {
+  background-color: #E86A33;
+  color: rgb(230,230,230);
+  padding: 24px;
+  border-radius: 10px;
+}
+
+#btn-orange:hover {
+  background-color: #c25323;
+  transition: 1s;
+}
