@@ -7,12 +7,26 @@
 @import url(components/banner.css);
 @import url(components/button.css);
 @import url(components/cards.css);
+@import url(components/grid.css);
 
 /* Utilities */
 .container {
   width: 900px;
   margin: 0 auto;
 }
+
+@media(max-width: 992px) {
+  .container {
+   width: 550px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 350px;
+  }
+}
+
 
 body {
   margin: 0;

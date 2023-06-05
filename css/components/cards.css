@@ -18,7 +18,8 @@
 }
 
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   gap: 24px;
   background-color: white;
@@ -28,7 +29,6 @@
 
 .card {
   box-shadow: 0 0 5px rgb(206, 206, 206);
-  width: 33%;
   border-radius: 5px;
 }
 
@@ -40,7 +40,9 @@
 
 .card p {
   color: grey;
+  padding: 4px;
 }
+
 
 .footer {
   background-color: #41644A;
